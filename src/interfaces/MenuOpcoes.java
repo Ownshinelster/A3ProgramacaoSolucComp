@@ -35,7 +35,7 @@ public class MenuOpcoes extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setLocation(new java.awt.Point(650, 175));
+        setLocation(new java.awt.Point(400, 100));
         setMaximumSize(new java.awt.Dimension(700, 700));
         setMinimumSize(new java.awt.Dimension(700, 700));
         getContentPane().setLayout(null);

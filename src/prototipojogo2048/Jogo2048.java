@@ -17,20 +17,21 @@ public class Jogo2048 {
         Tabuleiro tab = new Tabuleiro(4,4);
         TelaPrincipalDoJogo telaPrincipal = new TelaPrincipalDoJogo(tab);
         
-        while (true) {
+      //  while (true) {
             //telaPrincipal.alterarTextoMatriz(tab.getMatrizTabuleiro());
-            tab.setElementos();
-            telaPrincipal.setComponentes(tab.getMatrizElemento());
+          //  tab.setElementos();
+         //   telaPrincipal.setComponentes(tab.getMatrizElemento());
             //tab.gerarNovo2();
-            telaPrincipal.setVisible(true);
-            //tab.novaJogada();
+         //  telaPrincipal.setVisible(true);
+           //tab.novaJogada();
             
-        }
-//          MenuInicial painel = new MenuInicial();
-//          
-//          do{
-//              painel.setVisible(true);
-//          }while(painel.isVisible());
+       // }
+          MenuInicial painel = new MenuInicial();
+          
+          do{
+              painel.setVisible(true);
+          }while(painel.isVisible());
     }
+
 }
 
